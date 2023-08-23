@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Modern Website</title>
+<style>
+  body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  header {
+    background-color: rgba(17, 17, 17, 0.9);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  section {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .feature {
+    display: inline-block;
+    margin: 0 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .feature img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    background-color: rgba(17, 17, 17, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Your Modern Website</h1>
+    <p>Sleek and Stylish</p>
+  </header>
+  <div class="container">
+    <section>
+      <h2>Features</h2>
+      <div class="feature">
+        <img src="feature1.png" alt="Feature 1">
+        <h3>Feature 1</h3>
+        <p>Beautifully designed feature description goes here.</p>
+      </div>
+      <div class="feature">
+        <img src="feature2.png" alt="Feature 2">
+        <h3>Feature 2</h3>
+        <p>Another amazing feature description can be placed here.</p>
+      </div>
+    </section>
+    <section>
+      <h2>About Us</h2>
+      <p>Learn about our cutting-edge company and our incredible team.</p>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2023 Your Modern Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
